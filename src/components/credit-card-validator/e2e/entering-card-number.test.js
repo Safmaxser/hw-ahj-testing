@@ -6,9 +6,7 @@ describe("testing scenarios - entering card number", () => {
 
   beforeAll(async () => {
     browser = await puppeteer.launch({
-      headless: false,
-      slowMo: 100,
-      devtools: true,
+      headless: true
     });
     page = await browser.newPage();
   });
