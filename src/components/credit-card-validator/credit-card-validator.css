@@ -1,0 +1,118 @@
+.credit-card-validator {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+}
+
+.payment-systems {
+    display: flex;
+    gap: 5px;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.card {
+    width: 40px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 3px;
+    background-size: cover;
+}
+
+.card-visa {    
+    background-image: url("./img/card-visa.png");
+}
+
+.card-mir {
+    background-image: url("./img/card-mir.png");
+}
+
+.card-maestro {
+    background-image: url("./img/card-maestro.png");
+}
+
+.card-mastercard {
+    background-image: url("./img/card-mastercard.png");
+}
+
+.card-china-t-union {
+    background-image: url("./img/card-china-t-union.png");
+}
+
+.card-unionpay {
+    background-image: url("./img/card-unionpay.png");
+}
+
+.card-american-express {
+    background-image: url("./img/card-american-express.png");
+}
+
+.card-diners {
+    background-image: url("./img/card-diners.png");
+}
+
+.card-jcb {
+    background-image: url("./img/card-jcb.png");
+}
+
+.card-discover {
+    background-image: url("./img/card-discover.png");
+}
+
+.inactive {
+    background-position: 0 25px;
+}
+
+.form-validator {
+    display: flex;
+    gap: 10px;
+}
+
+.input-validator {
+    box-sizing: border-box;
+    height: 34px;
+    padding: 6px 12px; 
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;  
+}
+
+.input-validator:focus {
+    border-color: #66afe9;
+    outline: 0;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+}
+
+.submit-validator {  
+    padding: 6px 12px;
+    background-color: #5cb85c;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;  
+    color: #fff;
+    border: 1px solid #4cae4c;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.submit-validator:hover {
+    background-color: #449d44;
+    border-color: #398439;
+}
+
+.notice {
+    padding-left: 10px;
+    font-size: 18px;
+    font-weight: bold;    
+}
+
+.notice-error {
+    color: red;    
+}
+
+.notice-info {
+    color: green;    
+}
